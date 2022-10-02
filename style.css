@@ -96,3 +96,13 @@ h1 {
     background-image: url(img/scrapworld.png);
     background-size: cover;
 }
+
+#akimbo {
+    background-image: url(img/vicinity.png);
+    background-size: 85%;
+}
+
+#dickiesBag {
+    background-image: url(img/dickiesBag.png);
+    background-size: 70%;
+}
