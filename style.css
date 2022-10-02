@@ -74,7 +74,7 @@ h1 {
 
 #stussyBones {
     background-image: url(img/stussy-bones.png);
-    background-size: cover;
+    background-size: contain;
 }
 
 #dunkMichiganState {
@@ -85,4 +85,9 @@ h1 {
 #carhartt {
     background-image: url(img/carhartt.png);
     background-size: 85%;
+}
+
+#stussyPigment {
+    background-image: url(img/stussy1.png);
+    background-size: contain;
 }
