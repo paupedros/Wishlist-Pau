@@ -91,3 +91,8 @@ h1 {
     background-image: url(img/stussy1.png);
     background-size: contain;
 }
+
+#scrapworld {
+    background-image: url(img/scrapworld.png);
+    background-size: cover;
+}
