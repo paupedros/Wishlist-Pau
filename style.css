@@ -12,6 +12,11 @@ h1 {
     color: #505050;
 }
 
+#items {
+    position: absolute;
+    width: auto;
+}
+
 .item {
     display: inline-block;
     background: #F5F5F5;
