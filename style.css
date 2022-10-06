@@ -3,10 +3,6 @@ body {
 }
 
 h1 {
-    
-}
-
-.header {
     position: absolute;
     margin: 30px;
     font-style: normal;
@@ -14,18 +10,11 @@ h1 {
     font-size: 36px;
     line-height: 44px;
     color: #505050;
-    vertical-align: middle;
-    text-decoration: none;
 }
 
 .header img {
     height: 100%;
     width: 100%;
-}
-
-#items {
-    position: absolute;
-    width: auto;
 }
 
 .item {
