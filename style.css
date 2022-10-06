@@ -12,6 +12,14 @@ h1 {
     color: #505050;
 }
 
+#header a {
+    color: #505050;
+    line-height: 50px;
+    font-size: 50px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
 #items {
     position: absolute;
     width: auto;
