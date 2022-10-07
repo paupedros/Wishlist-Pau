@@ -30,6 +30,7 @@ h1 {
     transition: scale .2s;
     background-position: center;
     background-repeat: no-repeat;
+    transition: ease all .2s;
 }
 
 .item:hover {
