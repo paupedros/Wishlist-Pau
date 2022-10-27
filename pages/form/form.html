@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Add Item</h1>
+    <p class="subH home"><a href="../../index.html">Home</a></p>
+    <form action="">
+        <fieldset>
+            <legend class="subH">Item details</legend>
+            <table>
+
+                <tr>
+                    <td><label for="nameItem" class="body">Name of item</label></td>
+                    <td><label for="itemId" class="body">ID</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="nameItem" id="nameItem"></td>
+                    <td><input type="text" name="itemId" id="itemId"></td>
+                </tr>
+                <tr>
+                    <td><label for="itemPrice" class="body">Price</label></td>
+                    <td><label for="itemBrand" class="body">Brand</label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" name="itemPrice" id="itemPrice" value="€"></td>
+                    <td><input type="text" name="itemBrand" id="itemBrand"></td>
+                </tr>
+                <tr>
+                    <td><label for="itemImage" class="body">Image</label></td>
+                    <td><label for="itemImageSize" class="body">Image Size</label></td>
+                </tr>
+                <tr>
+                    <td><input type="file" name="itemImage" id="itemImage"></td>
+                    <td>
+                        <select name="itemImageSize" id="itemImageSize">
+                            <option value=""></option>
+                            <option value="cover">cover</option>
+                            <option value="contain">contain</option>
+                            <option value="100">100%</option>
+                            <option value="80">80%</option>
+                            <option value="60">60%</option>
+                            <option value="40">40%</option>
+                            <option value="20">20%</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Add" id="addBtn" class="btn body"></td>
+                    <td><input type="button" value="Cancel" id="cancelBtn" class="btn body"></td>
+                    
+                </tr>
+
+            </table>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
