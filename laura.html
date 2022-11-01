@@ -15,7 +15,6 @@
 
         .mySlides {
             display: none
-            
         }
 
         img {
@@ -127,7 +126,7 @@
             }
         }
     </style>
-    
+
 </head>
 
 <body>
@@ -231,8 +230,10 @@
         <span class="dot" onclick="currentSlide(8)"></span>
         <span class="dot" onclick="currentSlide(9)"></span>
         <span class="dot" onclick="currentSlide(10)"></span>
+        <br>
+        <audio src="belixe.mp3" autoplay controls id="belixe"></audio>
     </div>
-
+   
     <script>
         let slideIndex = 1;
         showSlides(slideIndex);
@@ -260,6 +261,9 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
         }
+
+        var audio = document.getElementById("belixe");
+        audio.volume = 0.5;
     </script>
 
 </body>
