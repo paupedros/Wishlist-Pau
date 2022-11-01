@@ -82,9 +82,9 @@ p a {
     top: 310px;
 }
 
-#stussyBones {
-    background-image: url(img/stussy-bones.png);
-    background-size: contain;
+a {
+    text-decoration: none;
+    color: #505050;
 }
 
 #dunkMichiganState {
@@ -115,4 +115,13 @@ p a {
 #dickiesBag {
     background-image: url(img/dickiesBag.png);
     background-size: 70%;
+}
+
+#laura {
+    background-image: url(img/laura1.png);
+    background-size: contain;
+}
+
+#laura .price {
+    font-size: 32px;
 }
