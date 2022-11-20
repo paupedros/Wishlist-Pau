@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Syne', sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+    margin-top: 0;
+}
+
+h1 span {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    font-size: 38px;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+.hybrid {
+    width: 90%;
+    min-width: 600px;
+    max-width: 1200px;
+}
+
+.m0a {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.inner {
+    margin: 10px;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w33 {
+    width: 33.333333%;
+}
+
+section, footer {
+    padding: 30px 0 30px 0;
+}
+
+span {
+    color: #fc5830;
+    text-decoration: underline;
+}
+
+header {
+    background-image: url("img/backgrounds/john.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #232323;
+    color: white;
+}
+
+header .row {
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 5px 10px;
+    margin: 10px;
+    transition: all 0.5s ease;
+    background-color: #595959;
+}
+
+nav ul li:hover {
+    background-color: #fc5830;
+    transition: all 0.5s ease;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+header img {
+    padding: 20px 0;
+}
+
+header span {
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+header p {
+    font-size: xx-small;
+    font-family: 'Syne', sans-serif;
+}
+
+section#title {
+    padding: 100px;
+}
+
+section#title h1 {
+    color: #fc5830;
+}
+
+section#goal {
+    background-image: url("img/backgrounds/goals.png");
+    background-repeat: repeat-y;
+    background-color: #1C1C1C;
+    background-position: right;
+}
+
+.inner#slim {
+    background-image: url("img/backgrounds/goals/pic1.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.inner#sturdy {
+    background-image: url("img/backgrounds/goals/pic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner#huge {
+    background-image: url("img/backgrounds/goals/pic3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#goal .inner {
+    padding: 300px 25px 50px 25px;
+    border-radius: 20px;
+}
+
+section#progress {
+    background-color: #fc5830;
+}
+
+section#progress .inner {
+    background-color: #1C1C1C;
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+
+p, input, textarea {
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+
+section#clients {
+    background-image: url("img/backgrounds/clients.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #1C1C1C;
+}
+
+#clients .row {
+    justify-content: right;
+}
+
+section#clients img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+section#package {
+    background-image: url("img/backgrounds/packages.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+#package ul {
+    list-style-image: url("img/bullets/disc.png");
+}
+
+#package ul li {
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#package .inner {
+    background-color: #595959bb;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#package h2 {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #00000050;
+}
+
+#package p {
+    padding-bottom: 20px;
+}
+
+#professional.inner{
+    background-color: #fc5930bb;
+}
+
+footer {
+    background-color: #fc5830;
+}
+
+footer form legend {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+footer form input, textarea {
+    background-color: #fc5830;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+    padding: 20px 10px 10px 10px;
+    width: 100%;
+}
+
+textarea {
+    height: 40px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Syne', sans-serif;
+    border: none;
+}
