@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/3e10d207bb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <header class="title">
+            <a href="index.html">
+                <h1>BurgerLog</h1>
+            </a>
+        </header>
+        <a href="pages/forms.html"><button class="button">Add Burger</button></a>
+
+    </nav>
+    <main>
+        <section id="burgerCards">
+            <article class="card">
+                <div class="cardTop">
+                    <div class="burgerName">
+                        Cheeseburger
+                    </div>
+                    <div class="burgerRating">
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                    </div>
+                </div>
+                <div class="cardTop2">
+                    <div class="restaurantName"><em>Antonia's Burger</em></div>
+                    <div class="burgerPrice">9</div>
+                </div>
+                <div class="burgerImage">
+                    <img src="images/CheeseBrgAntonias.jpg"
+                        alt="Cheeseburger from Antonia's Burger" loading="lazy">
+                </div>
+                <div class="burgerDetails">
+                    <button class="button">View Details</button>
+                    <div class="detail">
+                        <div class="burgerType"><p><em>SMASH</em></p></div>
+                        <p>Ingredients</p>
+                        <em>200g beef, brioche bread, cheese slice, pickled gherkin, grilled onion, mustard, ketchup</em>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="cardTop">
+                    <div class="burgerName">
+                        Singular
+                    </div>
+                    <div class="burgerRating">
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                    </div>
+                </div>
+                <div class="cardTop2">
+                    <div class="restaurantName"><em>Hundred Burgers</em></div>
+                    <div class="burgerPrice">11.5</div>
+                </div>
+                <div class="burgerImage">
+                    <img src="http://api.hundredburgers.com/media/products/Burger_Singular_6BrtDLC.jpeg.720x720_q90.jpg"
+                        alt="Singular from Hundred Burgers" loading="lazy">
+                </div>
+                <div class="burgerDetails">
+                    <button class="button">View Details</button>
+                    <div class="detail">
+                        <div class="burgerType"><p><em>PATTY</em></p></div>
+                        <p>Ingredients</p>
+                        <em>Vaca rubia gallega, cheddar, BBQ de mamá, bacon, cebolla caramelizada y crema camembert.</em>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="cardTop">
+                    <div class="burgerName">
+                        Johnny Drama
+                    </div>
+                    <div class="burgerRating">
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="cardTop2">
+                    <div class="restaurantName"><em>Hundred Burgers</em></div>
+                    <div class="burgerPrice">10.5</div>
+                </div>
+                <div class="burgerImage">
+                    <img src="http://api.hundredburgers.com/media/products/jhonny.jpg.720x720_q90.jpg"
+                        alt="Johnny Drama" loading="lazy">
+                </div>
+                <div class="burgerDetails">
+                    <button class="button">View Details</button>
+                    <div class="detail">
+                        <div class="burgerType"><p><em>PATTY</em></p></div>
+                        <p>Ingredients</p>
+                        <em>Vaca rubia gallega, cheddar, iceberg, cebolla relish, pickles y Hundred secret mayo.</em>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="cardTop">
+                    <div class="burgerName">
+                        Loser
+                    </div>
+                    <div class="burgerRating">
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                    </div>
+                </div>
+                <div class="cardTop2">
+                    <div class="restaurantName"><em>Hundred Burgers with salmon fried egg</em></div>
+                    <div class="burgerPrice">12.5</div>
+                </div>
+                <div class="burgerImage">
+                    <img src="http://api.hundredburgers.com/media/products/LOSER.jpg.720x720_q90.jpg"
+                        alt="Loser" loading="lazy">
+                </div>
+                <div class="burgerDetails">
+                    <button class="button">View Details</button>
+                    <div class="detail">
+                        <div class="burgerType"><p><em>PATTY</em></p></div>
+                        <p>Ingredients</p>
+                        <em>Vaca rubia gallega, cheddar, cebolla caramelizada y salsa coreana gochujang ligeramente picante.</em>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+
+
+
+
+</body>
+
+</html>

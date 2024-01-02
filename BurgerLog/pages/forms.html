@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3e10d207bb.js" crossorigin="anonymous"></script>
+    <script src="../scripts/script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <header>
+            <a href="../index.html">
+                <h1>BurgerLog</h1>
+            </a>
+        </header>
+    </nav>
+
+    <main id="mainAddBurger">
+        <h2>Add Burger</h2>
+        <article id="burgerForm">
+            <form action="manageForm.php" method="POST">
+                <h3>Burger details</h3>
+                <section id="sectionBurgerName">
+                    <label for="burgerName">Name</label>
+                    <input type="text" name="burgerName" id="burgerName">
+                </section>
+                <section id="sectionBurgerType">
+                    <label for="burgerType">Type</label>
+                    <select name="burgerType" id="burgerType">
+                        <option disabled selected></option>
+                        <option value="patty">PATTY</option>
+                        <option value="smash">SMASH</option>
+                    </select>
+                </section>
+                <section id="sectionBurgerPrice">
+                    <label for="burgerPrice">Price</label>
+                    <input type="number" name="burgerPrice" id="burgerPrice" min="0" step="0.1">
+                </section>
+                <section id="sectionBurgerRestaurant">
+                    <label for="burgerRestaurant">Restaurant </label>
+                    <input list="burgerRestaurant" name="burgerRestaurant">
+                    <datalist id="burgerRestaurant">
+                        <option value=""></option>
+                        <option value="The Ranch Smokehouse"></option>
+                        <option value="Smash Hiro"></option>
+                        <option value="Hundred Burgers"></option>
+                        <option value="Hideout"></option>
+                        <option value="Add"></option>
+                    </datalist>
+                </section>
+                <section id="sectionBurgerImage">
+                    <label for="burgerImage">Image</label>
+                    <label class="uploadImage">Upload<input type="file" name="burgerImage" id="burgerImage"
+                            accept="image/*"></label>
+                </section>
+                <section id="sectionBurgerRating">
+                    <label for="burgerRating">Rating</label>
+                    <input class="rating" max="5" oninput="this.style.setProperty('--value', this.value)" step="0.5"
+                        type="range" value="1">
+                </section>
+                <section id="sectionBurgerIngredients">
+                    <label for="burgerIngredients">Ingredients</label>
+                    <textarea name="burgerIngredients" id="burgerIngredients"></textarea>
+                </section>
+                <section id="sectionBurgerSubmit">
+                    <input type="submit" value="Submit">
+                </section>
+                <section id="sectionBurgerReset">
+                    <button type="reset">Reset</button>
+                </section>
+            </form>
+        </article>
+        <article id="burgerPreview">
+
+        </article>
+    </main>
+</body>
+
+</html>
