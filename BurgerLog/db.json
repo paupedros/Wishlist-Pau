@@ -1,0 +1,47 @@
+
+{
+    "burgers": [
+        {
+            "name": "Cheeseburger",
+            "type": "SMASH",
+            "price": 9,
+            "restaurant": "Antonia's Burger",
+            "ingredients": "200g beef, brioche bread, cheese slice, pickled gherkin, grilled onion, mustard, ketchup.",
+            "image": "images/CheeseBrgAntonias.jpg",
+            "date": "30/12/2023"
+        },
+        {
+            "name": "Choriburguer",
+            "type": "PATTY",
+            "price": 9,
+            "restaurant": "Monty's Bar",
+            "ingredients": "180g beef, tomato sauce, lettuce, tomato, double cheese and fried egg (a touch of spicy).",
+            "image": "images/ChoriBrg.jpg",
+            "date": "2/01/2024"
+        },
+        {
+            "name": "Hideout Burger",
+            "type": "SMASH",
+            "price": 11.90,
+            "restaurant": "Hideout",
+            "ingredients": "Brioche bread, double 100% beef smashburger with American cheese, crispy bacon slices, homemade pickled gherkins and our slightly spicy HIDEOUT sauce.",
+            "image": "images/HideoutBurger.jpg",
+            "date": "13/01/2024"
+        }
+    ],
+
+    "restaurants": [
+        {
+            "name": "Antonia's Burger",
+            "website": "https://www.instagram.com/antoniasburger/"
+        },
+        {
+            "name": "Monty's Bar",
+            "website": "https://montys-bar-premia.negocio.site/"
+        },
+        {
+            "name": "Hideout",
+            "website": "https://hideout-burger.com/"
+        }
+    ]
+}
