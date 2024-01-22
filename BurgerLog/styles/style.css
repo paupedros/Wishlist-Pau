@@ -245,9 +245,11 @@ section#burgerCards {
 
 .cardTop, .cardTop2 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 5px;
+}
+.cardTop {
+    flex-wrap: wrap;
 }
 
 .cardTop2 {
