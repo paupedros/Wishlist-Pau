@@ -276,7 +276,7 @@ section#burgerCards {
 
 .burgerImage img {
     min-width: 70%;
-    max-width: 100%;
+    max-width: 300px;
     max-height: 200px;
     border-radius: 6px;
 }
